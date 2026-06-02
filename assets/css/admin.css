@@ -1,0 +1,210 @@
+/* Agent Ready – Admin Styles */
+
+.ar-wrap {
+	max-width: 1200px;
+}
+
+.ar-page-title {
+	margin-bottom: 4px !important;
+}
+
+.ar-page-desc {
+	color: #646970;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+/* ── Score Card ──────────────────────────────── */
+.ar-score-card {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 24px;
+	margin-bottom: 28px;
+}
+
+.ar-score-circle {
+	display: flex;
+	align-items: baseline;
+	gap: 2px;
+	padding: 16px 24px;
+	border-radius: 50%;
+	min-width: 96px;
+	min-height: 96px;
+	justify-content: center;
+	border: 4px solid #c3c4c7;
+}
+
+.ar-score--ready          { border-color: #00a32a; color: #00a32a; }
+.ar-score--improving      { border-color: #dba617; color: #dba617; }
+.ar-score--needs-work     { border-color: #d63638; color: #d63638; }
+.ar-score--not-ready      { border-color: #d63638; color: #d63638; }
+
+.ar-score-number { font-size: 36px; font-weight: 700; line-height: 1; }
+.ar-score-max    { font-size: 16px; color: #646970; }
+
+.ar-score-label { margin: 0 0 4px; font-size: 20px; }
+.ar-score-date  { margin: 0 0 12px; color: #646970; font-size: 13px; }
+
+/* ── Category blocks ─────────────────────────── */
+.ar-category {
+	margin-bottom: 28px;
+}
+
+.ar-category-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 8px;
+}
+
+.ar-category-title {
+	margin: 0;
+	font-size: 15px;
+}
+
+.ar-category-count {
+	font-size: 12px;
+	color: #646970;
+}
+
+.ar-checks-table th,
+.ar-checks-table td {
+	vertical-align: middle;
+	padding: 8px 12px !important;
+}
+
+.ar-col-status { width: 80px; }
+.ar-col-check  { width: 220px; }
+.ar-col-detail { }
+
+.ar-check-desc { color: #3c434a; }
+.ar-check-fix  { display: block; margin-top: 4px; }
+
+.ar-fix-info {
+	color: #646970;
+	font-size: 12px;
+}
+
+.ar-fix-btn {
+	margin-right: 4px !important;
+}
+
+/* ── Badges ──────────────────────────────────── */
+.ar-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.ar-badge--pass { background: #d7f5dc; color: #006505; }
+.ar-badge--fail { background: #fce8e8; color: #8a0000; }
+.ar-badge--warn { background: #fff5cc; color: #7a4900; }
+.ar-badge--info { background: #f0f0f1; color: #50575e; }
+
+/* Row colours */
+.ar-check--pass td { }
+.ar-check--fail td { background: #fff5f5 !important; }
+.ar-check--warn td { background: #fffbf0 !important; }
+.ar-check--info td { }
+
+/* ── Two-col layout ──────────────────────────── */
+.ar-two-col {
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+}
+
+.ar-col-main {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
+.ar-col-side {
+	flex: 0 0 260px;
+	width: 260px;
+}
+
+/* ── Sidebar boxes ───────────────────────────── */
+.ar-sidebar-box {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.ar-sidebar-box h3 {
+	margin-top: 0;
+	margin-bottom: 8px;
+	font-size: 13px;
+}
+
+.ar-sidebar-box p,
+.ar-sidebar-box ul {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.ar-sidebar-box--danger {
+	border-color: #d63638;
+}
+
+.ar-btn--danger {
+	background: #d63638 !important;
+	border-color: #d63638 !important;
+	color: #fff !important;
+}
+
+.ar-btn--danger:hover {
+	background: #b32d2e !important;
+	border-color: #b32d2e !important;
+}
+
+/* ── Label ───────────────────────────────────── */
+.ar-label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: 600;
+	margin-bottom: 6px;
+	font-size: 13px;
+}
+
+/* ── Textarea ────────────────────────────────── */
+.ar-textarea {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.ar-textarea--code {
+	font-family: Consolas, Monaco, monospace;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+/* ── Actions row ─────────────────────────────── */
+.ar-actions {
+	display: flex;
+	gap: 8px;
+	margin-top: 12px;
+}
+
+/* ── Code preview ────────────────────────────── */
+.ar-code-preview {
+	font-size: 11px;
+	line-height: 1.6;
+	background: #f6f7f7;
+	padding: 8px;
+	border-radius: 3px;
+	white-space: pre-wrap;
+	word-break: break-word;
+	margin: 0;
+}
