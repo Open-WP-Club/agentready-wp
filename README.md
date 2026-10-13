@@ -164,13 +164,13 @@ The plugin hooks into WordPress's built-in `robots_txt` filter at priority 20. T
 
 These companies help keep Open WP Club plugins free and maintained.
 
-[![Open WP Club supporters](https://openwpclub.com/sponsorship/supporters.png)](https://openwpclub.com/sponsors/)
+<a href="https://openwpclub.com/sponsors/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://openwpclub.com/sponsorship/supporters-dark.png"><img src="https://openwpclub.com/sponsorship/supporters.png" alt="Open WP Club supporters" width="960"></picture></a>
 
 ## Sponsored placements
 
 Clearly labelled promotional campaigns, separate from our supporters.
 
-[![Open WP Club sponsored placements](https://openwpclub.com/sponsorship/repos/agentready-wp/campaigns.png)](https://openwpclub.com/advertise/)
+<a href="https://openwpclub.com/advertise/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://openwpclub.com/sponsorship/repos/agentready-wp/campaigns-dark.png"><img src="https://openwpclub.com/sponsorship/repos/agentready-wp/campaigns.png" alt="Open WP Club sponsored placements" width="960"></picture></a>
 
 [Support our work](https://openwpclub.com/sponsors/) · [Discuss a campaign](https://openwpclub.com/advertise/)
 <!-- OPENWPCLUB_SPONSORS_END -->
