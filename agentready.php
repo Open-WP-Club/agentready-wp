@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Agent Ready
+ * Tested up to: 7.1.4
  * Plugin URI:  https://github.com/Open-WP-Club/agentready-wp
  * Description: Scan your WordPress site for AI agent readiness and generate missing files (llms.txt, MCP Server Card, Agent Skills, and more).
  * Version:     1.0.0
